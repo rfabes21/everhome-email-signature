@@ -27,7 +27,7 @@ export default {
       state = Object.assign(state, data)
     },
     RESET_BASIC_FIELDS (state) {
-      state.image.link = ''
+      state.image.link = 'https://everhome-public-media.s3-us-west-1.amazonaws.com/svg/eh-vertical-color-1.svg'
       state.fields = mainFields.basic
     }
   },

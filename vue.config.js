@@ -1,7 +1,7 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  publicPath: isProd ? '/everhome-email-signature/' : '/',
+  publicPath: '/everhome-email-signature/',
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()

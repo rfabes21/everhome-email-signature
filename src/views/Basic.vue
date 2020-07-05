@@ -8,11 +8,6 @@
             :style="{'background-image': `url(${imageUrl})` }"
           />
           <div class="image-preview__actions">
-            <upload
-              :crop-width="200"
-              :crop-height="200"
-              @upload="onUpload"
-            />
             <el-row :gutter="20">
               <el-col :span="16">
                 <el-input
@@ -27,7 +22,7 @@
               </el-col>
             </el-row>
             <div class="desc">
-              <p>You can upload image or add the public link to image.</p>
+              <p>You can paste a different link from the public media files, or use the default.</p>
             </div>
           </div>
         </div>
